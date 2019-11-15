@@ -1,0 +1,15 @@
+    .sweet-loading{
+          position: absolute;
+          z-index: 999999;
+          background: rgba(0,0,0,0.5);
+          width: 100%;
+          height: 100%;
+          top: 0;
+          display: flex;
+          align-content: center;
+          align-items: center;
+    }
+
+    .hidden{
+        display: none;
+    }

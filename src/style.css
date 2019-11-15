@@ -1,0 +1,9 @@
+@import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+@import '../node_modules/animate.css/animate.min.css';
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,700');
+
+
+*{
+  font-family: 'Quicksand', sans-serif;
+
+}

@@ -1,0 +1,63 @@
+.header {
+    background: #000;
+    position: relative;
+    &-logo{
+      padding: 20px;
+      @media screen  and (max-width: 767px){ 
+        text-align: center;
+        span {
+          display: block;
+          
+        }
+      }
+    }
+    a{
+      color : #fff;
+      
+      h1{
+        margin: 0;
+        line-height: 1;
+      }
+      &:hover{
+        text-decoration: none;
+        color : #fff;
+      }
+    }
+    .menu {
+      list-style: none;
+      float: right;
+      padding: 20px 0;
+      &-open {
+        display: block !important;
+      }
+      @media screen and (max-width: 768px) {
+          display: none;
+          position: absolute;
+          border-top : 1px solid #333;
+          width: 100%;
+          left: 0;
+          padding: 30px 0;
+          background: #000;
+          z-index: 9999;
+      }
+      li {
+        display: inline;
+        margin: 0 10px;
+        text-align: center;
+        padding: 10px 0;
+        @media screen and (max-width: 768px) {
+          width: 100%;
+          left: 0;
+          margin: 0;
+          background: #000;
+          display: block;
+      }
+      }
+    }
+    .mobile-menu{
+      position: absolute;
+      right: 15px;
+      top: -75px;
+      z-index: 99999;;
+    }
+}

@@ -1,0 +1,29 @@
+.card {
+  margin-bottom: 30px;
+  a {
+    color : #333;
+    transition: opacity 0.5s;
+    &:hover {
+      color : #333;
+      opacity: 0.8;
+      text-decoration: none;
+      transition: opacity 0.5s;
+    }
+  }
+  &-image{
+    img {
+      height: 300px;
+      width: 100%;
+      object-fit: cover;
+      object-position: top;
+    }
+  }
+  &-content {
+    p{
+      white-space: nowrap; 
+      width: 200px; 
+      overflow: hidden;
+      text-overflow: ellipsis; 
+    }
+  }
+}
