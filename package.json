@@ -6,7 +6,7 @@
   "dependencies": {
     "animate.css": "^3.7.0",
     "axios": "^0.18.0",
-    "bootstrap": "^4.3.1",
+    "bootstrap": "^4.6.0",
     "disqus-react": "^1.0.5",
     "gh-pages": "^2.0.1",
     "html-react-parser": "^0.7.0",
