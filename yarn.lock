@@ -3396,13 +3396,10 @@ dir-glob@2.0.0:
     arrify "^1.0.1"
     path-type "^3.0.0"
 
-disqus-react@^1.0.5:
-  version "1.0.5"
-  resolved "https://registry.yarnpkg.com/disqus-react/-/disqus-react-1.0.5.tgz#828ea186bd241c5e2a6dfebab5135e52a2d91d11"
-  integrity sha1-go6hhr0kHF4qbf66tRNeUqLZHRE=
-  dependencies:
-    react "^15.6.1"
-    react-dom "^15.6.1"
+disqus-react@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/disqus-react/-/disqus-react-1.1.0.tgz#4aa722ecc1bc06ee593a7ce2584e0bbefea212ee"
+  integrity sha512-OKZLgMsJVmVRGtzBsZ1eY4OU3Iqlqf5Pv0JxT+iI3KjxF0l+7SbypW4D12AgrCiByreuho63c10Y5Ax86SgPlA==
 
 dns-equal@^1.0.0:
   version "1.0.0"
@@ -8691,16 +8688,6 @@ react-dom-core@0.0.4:
   dependencies:
     react "15"
 
-react-dom@^15.6.1:
-  version "15.6.2"
-  resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-15.6.2.tgz#41cfadf693b757faf2708443a1d1fd5a02bef730"
-  integrity sha1-Qc+t9pO3V/rycIRDodH9WgK+9zA=
-  dependencies:
-    fbjs "^0.8.9"
-    loose-envify "^1.1.0"
-    object-assign "^4.1.0"
-    prop-types "^15.5.10"
-
 react-dom@^16.8.6:
   version "16.8.6"
   resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-16.8.6.tgz#71d6303f631e8b0097f56165ef608f051ff6e10f"
@@ -8900,7 +8887,7 @@ react-transition-group@^2.7.1:
     prop-types "^15.6.2"
     react-lifecycles-compat "^3.0.4"
 
-react@15, react@^15.6.1:
+react@15:
   version "15.6.2"
   resolved "https://registry.yarnpkg.com/react/-/react-15.6.2.tgz#dba0434ab439cfe82f108f0f511663908179aa72"
   integrity sha1-26BDSrQ5z+gvEI8PURZjkIF5qnI=
