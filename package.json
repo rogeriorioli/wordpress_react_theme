@@ -11,7 +11,7 @@
     "gh-pages": "^2.0.1",
     "html-react-parser": "^0.7.0",
     "moment": "^2.24.0",
-    "node-sass": "^4.11.0",
+    "node-sass": "^7.0.0",
     "react": "^16.8.6",
     "react-bootstrap": "^1.0.0-beta.8",
     "react-dom": "^16.8.6",
